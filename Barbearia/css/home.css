@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/Barbearia/img/BarBear.png);
+
+}
+
+li
+{
+    list-style: none;
+}
+
+img
+{
+    width: 40px;
+}
+
+input[type="checkbox"]
+{
+    display: none;
+}
+
+nav
+{
+    background-color: rgba(16, 38, 51, 0.7);
+    width: 180px;
+    height: 100%;
+    left: -180px;
+    position: absolute;
+    transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(180px);
+}
+
+ul{
+    top: 70px;
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+}
+
+a{
+
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(41, 81, 119);
+}
+
+label{
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+
